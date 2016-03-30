@@ -1,0 +1,3 @@
+1) What happens to the layout when the screen is resized to less than 550px? How does that work?
+
+When the screen is resized to less than 550px across, all the boxes in the grid go from being side-by-side to being stacked up one on top of the other. This is achived by adjusting the width of the div from 48% (in the case of 2 boxes in a row, each with the same width), to 100% (meaning that the div now takes up all space on the row, as opposed to half of it)
